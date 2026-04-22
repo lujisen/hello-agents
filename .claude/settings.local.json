@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where python *)",
+      "Bash(uv python *)",
+      "Bash(D:/softwareInstalled/python/python3.14/python.exe --version)",
+      "Bash(python -c \"import hello_agents; print\\(hello_agents.__version__\\); print\\(hello_agents.__file__\\)\")",
+      "Bash(uv pip *)",
+      "Bash(python -c \"import hello_agents; print\\(f'版本: {hello_agents.__version__}'\\)\")",
+      "Bash(uv run *)",
+      "Bash(pip show *)",
+      "Bash(curl -s http://localhost:6333/collections)"
+    ]
+  }
+}

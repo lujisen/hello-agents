@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker restart *)",
+      "Bash(curl -s http://127.0.0.1:6333/)",
+      "Bash(set PYTHONIOENCODING=utf-8)"
+    ]
+  }
+}
